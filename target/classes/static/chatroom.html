@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	
+	<script type="text/javascript" src="../static/lib/js/jquery-1.4.3.min.js"></script>
+    <script type="text/javascript" src="../static/lib/js/chatroom.js"></script>
+    <link rel="stylesheet" href="../static/lib/css/main.css"/>
+    
+	<script>
+		$( document ).ready(function() {
+			this.receiver();
+		});
+	</script>
+	
+	<title>ChatRoom</title>
+</head>
+
+<body>
+	<div id="container2">
+		<!--div id="content"!-->
+			
+			<!-- roomScreen !-->
+			<input type="text" id="chat_userId" name="chat_userId" style="display:none;">
+			<input type="text" id="chat_roomTitle" name="chat_roomTitle" style="display:none;">
+			
+			<div class="secondScreen" >
+				
+				<div id="messageArea">
+					<div id="messages"></div>
+				</div>
+		
+				<div id="requestArea">
+					<div align="center">
+	                    <textarea id="sendMessage"></textarea>
+	                </div>
+	                <div>
+	                 	<input type="file" enctype="multipart/form-data" id="uploadfile" value="" accept="image/*" multiple/>
+	                	<!--button id="uploadBtn">upload</button!-->
+	                    <button id="sendBtn">SEND</button>
+	                    <button id="exitBtn" onclick="exitRoom();">EXIT</button>
+	                </div>
+	             </div> 
+			</div>
+			
+
+		<!--/div!-->
+	</div>
+</body>
+</html>

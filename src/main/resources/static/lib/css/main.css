@@ -1,0 +1,142 @@
+
+#container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:white;
+}
+
+#container2{
+	/*display:flex;
+	/*justify-content:center;*/
+	align-items:center;
+	background:whites;
+}
+
+
+.fisrtScreen{
+	width:480px;
+	background:white;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/*create room*/
+#createRoomBlock{
+	height:50px;
+	background:black;
+	flex-direction:column;
+	text-align:center;
+	padding-top:20px;
+	margin-bottom:2px;
+}
+#userId{
+	background:rgb(128, 128, 128, 0.7);
+	color:white;
+	width:340px;
+}
+#createBtn{
+	background:black;
+	color:gold;
+}
+/*room list & enter the room*/
+#roomList::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+#roomList{
+	 -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    
+    height:600px;
+    background:black;
+    flex-direction:column;
+    display:flex;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    text-align:center;
+    
+}
+#addRoomList{
+	background:black;
+	color:gold;
+}
+/*roomScreen*/
+
+#roomTitle{
+	flex-direction:column; 
+	display:none; 
+	width:500px;
+}
+#roomTitle2{
+	flex-direction:column; 
+	display:none; 
+	width:500px;
+}
+
+/*=============================================*/
+.secondScreen{
+	width:480px;
+	height: 600px;
+	background:white;
+	text-align:center;
+}
+
+#requestArea{
+	background:black;
+	color:gold;
+	width:480px;
+	height: 160px;
+}
+#messageArea::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+#messageArea{
+	background:black;
+	color:gold;
+	flex-direction:column;
+	width:480px;
+	height:500px;
+	overflow-y:scroll;
+	margin-bottom: 10px; 
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#sendMessage::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+#sendMessage{
+	background:rgb(128, 128, 128,0.5);
+	color:white;
+	overflow-y:scroll;
+	margin-top:20px;
+	margin-bottom: 10px;
+	width: 400px; 
+	height: 80px;
+}
+#messages{
+	width: 100%;
+	text-align:center;
+	margin:10px 10px 10px 10px;
+}
+
+#uploadfile{
+	color: gold;
+}
+
+#sendBtn{
+	background:black;
+	color:gold;
+	border-color: gold;
+	margin-left: 5%;
+    margin-right: 2%;
+}
+#exitBtn{
+	background:black;
+	color:gold;
+	border-color: gold;
+	
+}

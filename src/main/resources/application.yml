@@ -1,0 +1,16 @@
+spring:
+  mvc:
+    static-path-pattern: /static/**
+    view:
+      prefix: /WEB-INF/views/
+  servlet:
+    multipart:
+      file-size-threshold: 1MB
+      location: C:\Users\kakaopaysec\Desktop\fileupload
+      max-file-size: 100MB
+      max-request-size: 100MB
+      
+logging:
+  level:
+    root: info
+    
